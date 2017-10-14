@@ -12,6 +12,7 @@
 		37D58F851F92894A0013E6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D58F831F92894A0013E6A8 /* Main.storyboard */; };
 		37D58F871F92894A0013E6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D58F861F92894A0013E6A8 /* Assets.xcassets */; };
 		37D58F8A1F92894A0013E6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D58F881F92894A0013E6A8 /* LaunchScreen.storyboard */; };
+		37D58F921F928FDB0013E6A8 /* if_icon-25-key_314757-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D58F911F928FDB0013E6A8 /* if_icon-25-key_314757-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		37D58F861F92894A0013E6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37D58F891F92894A0013E6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37D58F8B1F92894A0013E6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D58F911F928FDB0013E6A8 /* if_icon-25-key_314757-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "if_icon-25-key_314757-2.png"; path = "../../../Downloads/if_icon-25-key_314757-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				37D58F811F92894A0013E6A8 /* ViewController.swift */,
 				37D58F831F92894A0013E6A8 /* Main.storyboard */,
 				37D58F861F92894A0013E6A8 /* Assets.xcassets */,
+				37D58F911F928FDB0013E6A8 /* if_icon-25-key_314757-2.png */,
 				37D58F881F92894A0013E6A8 /* LaunchScreen.storyboard */,
 				37D58F8B1F92894A0013E6A8 /* Info.plist */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D58F921F928FDB0013E6A8 /* if_icon-25-key_314757-2.png in Resources */,
 				37D58F8A1F92894A0013E6A8 /* LaunchScreen.storyboard in Resources */,
 				37D58F871F92894A0013E6A8 /* Assets.xcassets in Resources */,
 				37D58F851F92894A0013E6A8 /* Main.storyboard in Resources */,
