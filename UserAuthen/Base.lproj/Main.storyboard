@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO1-cL-nHa">
                                 <rect key="frame" x="83" y="463" width="209" height="30"/>
@@ -77,8 +77,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="insertPass" destination="m5n-fy-ZaV" id="dZ1-NT-ngN"/>
-                        <outlet property="insertUser" destination="whu-c4-IiW" id="7KE-8k-uRQ"/>
                         <outlet property="showLabel" destination="Lla-jq-Tmj" id="XrW-ac-0mS"/>
                         <outlet property="textPass" destination="m5n-fy-ZaV" id="akl-yC-W1C"/>
                         <outlet property="textUser" destination="whu-c4-IiW" id="j3s-JI-hyM"/>

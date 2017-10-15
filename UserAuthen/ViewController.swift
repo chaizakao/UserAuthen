@@ -10,7 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var userDictionaryString = ["key1":"chaiwat", "key2":"54321"]
+    
+    //Explicit Constant
+    let userDictionaryString = ["user1":"123456", "user2":"123456", "user3":"123456"]
+    let alertDictionary = ["userFail":"ไม่มี user นี้ในฐานข้อมูล", "passwordFail":"please Try Again Pass Fail", "authenOK":"welcome to my APP"]
+    
+    
+    
+    // ตัวแปรรับค่าจากการกรอก user pass ผ่าน textField
+    var userString: String = ""
+    var passwordString:String = ""
     
     
     
@@ -28,22 +37,38 @@ class ViewController: UIViewController {
     
     @IBAction func buttonLogin(_ sender: Any) {
         
-       /*
-        let usrTextString = userDictionaryString["key1"]
-        let pasTextString = userDictionaryString["key2"]
+        //Get value from textfield
         
+        userString = textUser.text!
+        passwordString = textPass.text!
         
-         if (textUser.text == (usrTextString) || textPass.text == (pasTextString))
-            {
+        // แสดงค่าที่รับมาจาก textfield บน console
+        print("user ==> \(userString)")
+        print("pass ==> \(passwordString)")
         
-                showLabel.text = "ล็อกอินสำเร็จ "
+        let resultString = userDictionaryString[userString]
+        print("result string ==> \(String(describing: resultString))")
+        
+
+        
+       //check user pass
+        if(resultString == nil)
+          {
+            showLabel.text = alertDictionary["userFail"]
+                showLabel.textColor = UIColor.red
+        } else {
+            if(passwordString == resultString){
+                // user pass OK
+                showLabel.text = alertDictionary["authenOK"]
                 showLabel.textColor = UIColor.blue
+            } else {
+                // pass Fail
+                showLabel.text = alertDictionary["passwordFail"]
+                showLabel.textColor = UIColor.red
             }
-        showLabel.text = "User or Pass Wrong "
-        showLabel.textColor = UIColor.red
-        */
-        
-    }
+        }
+      
+    }// Log in Button
     
     
     override func viewDidLoad() {
